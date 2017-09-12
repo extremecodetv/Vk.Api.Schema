@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <Title>Vk.Api.Schema</Title>
-    <Version>0.0.1</Version>
+    <Version>{version}</Version>
     <Authors>VkSharp</Authors>
     <Company>VkSharp</Company>
     <Product>Vk.Api.Schema</Product>
