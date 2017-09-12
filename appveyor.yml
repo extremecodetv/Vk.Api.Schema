@@ -2,12 +2,15 @@ version: 0.0.1.{build}
 image: Visual Studio 2017
 
 skip_branch_with_pr: true
-
-artifacts:
-- path: artifacts\bin\Vk.Api.Schema\**\*.nupkg
-
+  
 before_build:
   - nuget restore Vk.Api.Schema.sln
+    
+dotnet_csproj:
+  patch: true
+  file: src\Vk.Api.Schema\Vk.Api.Schema.csproj
+  version: $(appveyor_build_version)
+  package_version: $(appveyor_build_version)
   
 build:
     project: Vk.Api.Schema.sln
