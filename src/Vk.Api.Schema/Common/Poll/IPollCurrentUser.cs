@@ -4,7 +4,7 @@
     /// Интерфейс для представления информации об ответах в опросе ВКонтакте для текущего пользователя <para/>
     /// Документация: <see href="https://vk.com/dev/objects/poll">objects.poll</see>
     /// </summary>
-    public interface IPollCurentUser
+    public interface IPollCurrentUser
     {
         /// <summary>
         /// Идентификатор ответа (если доступно),
