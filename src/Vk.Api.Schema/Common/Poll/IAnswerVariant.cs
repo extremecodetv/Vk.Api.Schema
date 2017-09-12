@@ -3,7 +3,7 @@
     /// <summary>
     /// Интерфейс для представления информации об ответах в опросе ВКонтакте
     /// </summary>
-    interface IAnswerVariant
+    public interface IAnswerVariant
     {
         /// <summary>
         /// Идентификатор ответа

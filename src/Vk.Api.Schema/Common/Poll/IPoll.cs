@@ -4,7 +4,7 @@
     /// Интерфейс для представления информации об опросе ВКонтакте <para/>
     /// Документация: <see href="https://vk.com/dev/objects/poll">objects.poll</see>
     /// </summary>
-    interface IPoll : IPollCommon, IPollCurentUser
+    public interface IPoll : IPollCommon, IPollCurentUser
     {
     }
 }

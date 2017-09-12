@@ -7,7 +7,7 @@ namespace Vk.Api.Schema.Common.Poll
     /// Интерфейс для представления общей информации об опросе ВКонтакте <para/>
     /// Документация: <see href="https://vk.com/dev/objects/poll">objects.poll</see>
     /// </summary>
-    interface IPollCommon
+    public interface IPollCommon
     {
         /// <summary>
         /// Идентификатор опроса
