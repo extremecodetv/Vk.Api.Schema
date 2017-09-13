@@ -1,4 +1,5 @@
-﻿namespace Vk.Api.Schema.Common.User
+﻿
+namespace Vk.Api.Schema.Common.User
 {
     /// <summary>
     /// Интерфейс для представления информации о городе

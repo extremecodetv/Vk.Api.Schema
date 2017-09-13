@@ -1,11 +1,10 @@
 ﻿
 namespace Vk.Api.Schema.Enums.User
 {
-
     /// <summary>
     /// Падежи для склонения имени и фамилии
     /// </summary>
-    public enum NameCase
+    public enum NameCaseType
     {
         /// <summary>
         /// Именительный
