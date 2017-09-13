@@ -11,7 +11,7 @@
     <Product>Vk.Api.Schema</Product>
     <Description>Схема типов для работы с Vk Api</Description>
     <PackageId>Vk.Api.Schema</PackageId>
-    <PackageVersion>{version}</PackageVersion>
+	<PackageVersion></PackageVersion>
     <PackageTags>csharp;vk;api;schema;</PackageTags>
     <PackageIconUrl>https://avatars2.githubusercontent.com/u/31795701</PackageIconUrl>
     <PackageProjectUrl>https://github.com/VkSharp/Vk.Api.Schema</PackageProjectUrl>
@@ -21,7 +21,6 @@
   
   <PropertyGroup>
     <AssemblyName>Vk.Api.Schema</AssemblyName>
-    <Version>{version}</Version>
     <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
     <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
     <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
