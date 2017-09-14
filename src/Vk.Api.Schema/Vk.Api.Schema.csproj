@@ -30,6 +30,7 @@
   <ItemGroup>
     <Folder Include="Common\Group\" />
     <Folder Include="Common\Wall\" />
+    <Folder Include="Parameters\App\" />
   </ItemGroup>
 
 </Project>
