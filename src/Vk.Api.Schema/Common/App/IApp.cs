@@ -1,4 +1,6 @@
-﻿namespace Vk.Api.Schema.Common.App
+﻿using Vk.Api.Schema.Enums.App;
+
+namespace Vk.Api.Schema.Common.App
 {
     /// <summary>
     /// Интерфейс для представления информации о приложении ВКонтакте<para/>
@@ -8,7 +10,7 @@
         IAppMinimal, ICategorize
     {
         /// <summary>
-        /// Идентификатор приложения
+        /// Количество участников приложения
         /// </summary>
         int MembersCount { get; set; }
 
@@ -17,6 +19,11 @@
         /// иначе <see langword="null"/>
         /// </summary>
         string Description { get; set; }
+
+        /// <summary>
+        /// Тип турнирной таблицы
+        /// </summary>
+        AppLeaderBoardType LeaderBoardType { get; set; }
 
         /// <summary>
         /// Короткий адрес приложения
