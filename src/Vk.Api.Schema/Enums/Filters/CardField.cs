@@ -3,6 +3,7 @@
     /// <summary>
     /// Поля анкет
     /// </summary>
+    /// TODO: Description and docs
     public enum CardField
     {
         Nickname,

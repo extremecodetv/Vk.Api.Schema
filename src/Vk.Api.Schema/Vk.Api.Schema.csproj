@@ -1,36 +1,36 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>netstandard1.4</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <Title>Vk.Api.Schema</Title>
-    <Authors>VkSharp</Authors>
-    <Company>VkSharp</Company>
-    <Product>Vk.Api.Schema</Product>
-    <Description>Схема типов для работы с Vk Api</Description>
-    <PackageId>Vk.Api.Schema</PackageId>
+	<PropertyGroup>
+		<Title>Vk.Api.Schema</Title>
+		<Authors>VkSharp</Authors>
+		<Company>VkSharp</Company>
+		<Product>Vk.Api.Schema</Product>
+		<Description>Схема типов для работы с Vk Api</Description>
+		<PackageId>Vk.Api.Schema</PackageId>
 	<PackageVersion></PackageVersion>
-    <PackageTags>csharp;vk;api;schema;</PackageTags>
-    <PackageIconUrl>https://avatars2.githubusercontent.com/u/31795701</PackageIconUrl>
-    <PackageProjectUrl>https://github.com/VkSharp/Vk.Api.Schema</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/VkSharp/Vk.Api.Schema</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
-  </PropertyGroup>
-  
-  <PropertyGroup>
-    <AssemblyName>Vk.Api.Schema</AssemblyName>
-    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
-    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
-    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-  </PropertyGroup>
-  
-  <ItemGroup>
-    <Folder Include="Common\Group\" />
-    <Folder Include="Common\Wall\" />
-    <Folder Include="Parameters\App\" />
-  </ItemGroup>
-
+		<PackageTags>csharp;vk;api;schema;</PackageTags>
+		<PackageIconUrl>https://avatars2.githubusercontent.com/u/31795701</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/VkSharp/Vk.Api.Schema</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/VkSharp/Vk.Api.Schema</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+	
+	<PropertyGroup>
+		<AssemblyName>Vk.Api.Schema</AssemblyName>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<Folder Include="Common\Group\" />
+		<Folder Include="Common\Wall\" />
+		<Folder Include="Parameters\App\" />
+	</ItemGroup>
+	
 </Project>
