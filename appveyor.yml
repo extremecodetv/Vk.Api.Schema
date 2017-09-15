@@ -13,7 +13,7 @@ dotnet_csproj:
   
 build:
     project: Vk.Api.Schema.sln
-    publish_nuget: true
+    publish_nuget: false
     publish_nuget_symbols: false
     verbosity: minimal
 
