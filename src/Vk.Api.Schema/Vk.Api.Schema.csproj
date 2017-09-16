@@ -28,13 +28,18 @@
 	</PropertyGroup>
 	
 	<ItemGroup>
+	  <Compile Remove="Serializing\**" />
+	  <EmbeddedResource Remove="Serializing\**" />
+	  <None Remove="Serializing\**" />
+	</ItemGroup>
+	
+	<ItemGroup>
 		<Folder Include="Common\Group\" />
 		<Folder Include="Common\Wall\" />
 		<Folder Include="Parameters\App\" />
 	</ItemGroup>
 	
 	<ItemGroup>
-	  <PackageReference Include="HttpPostSerializer" Version="1.0.1" />
 	  <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
 	</ItemGroup>
 	

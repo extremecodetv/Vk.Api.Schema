@@ -1,6 +1,6 @@
 ﻿using Vk.Api.Schema.Enums;
 
-using HttpPostSerializer;
+using Vk.Api.Schema.Serialization.Http;
 
 namespace Vk.Api.Schema.Parameters
 {
