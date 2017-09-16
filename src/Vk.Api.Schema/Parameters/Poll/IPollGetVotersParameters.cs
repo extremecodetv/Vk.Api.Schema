@@ -32,7 +32,7 @@ namespace Vk.Api.Schema.Parameters.Poll
         PollBoardType Board { get; set; }
 
         /// <summary>
-        /// указывает, необходимо ли возвращать только пользователей, которые являются друзьями текущего пользователя
+        /// Указывает, необходимо ли возвращать только пользователей, которые являются друзьями текущего пользователя
         /// </summary>
         /// <remarks>
         /// Необязателен, если не был задан используется <see langword="false"/>
@@ -61,7 +61,7 @@ namespace Vk.Api.Schema.Parameters.Poll
         /// <summary>
         /// Поля анкет, необходимые для получения
         /// </summary>
-        NameCaseType Fields { get; set; }
+        CardField Fields { get; set; }
 
         /// <summary>
         /// Падеж для склонения имени и фамилии пользователя

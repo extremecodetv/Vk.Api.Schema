@@ -7,16 +7,11 @@ using Vk.Api.Schema.Enums.Filters;
 namespace Vk.Api.Schema.Parameters.User
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для users.getFollowers <para/>
+    /// Интерфейс, представляющий параметры запроса для users.getFollowers <para/>
     /// Документация: <see href="https://vk.com/dev/users.getFollowers"/>
     /// </summary>
-    public interface IUserGetFollowersParameters
+    public interface IUserGetFollowersParameters : IUserIdParameter
     {
-        /// <summary>
-        /// Идентификатор пользователя
-        /// </summary>
-        int? UserId { get; set; }
-
         /// <summary>
         /// Смещение для выборки подмножества пользователей
         /// </summary>

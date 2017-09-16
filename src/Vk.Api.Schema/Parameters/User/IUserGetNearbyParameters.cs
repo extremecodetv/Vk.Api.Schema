@@ -4,7 +4,7 @@ using Vk.Api.Schema.Enums.Filters;
 namespace Vk.Api.Schema.Parameters.User
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для users.getNearby <para/>
+    /// Интерфейс, представляющий параметры запроса для users.getNearby <para/>
     /// Документация: <see href="https://vk.com/dev/users.getNearby"/>
     /// </summary>
     public interface IUserGetNearbyParameters

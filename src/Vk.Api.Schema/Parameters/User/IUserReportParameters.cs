@@ -6,14 +6,8 @@ namespace Vk.Api.Schema.Parameters.User
     /// Интерфейс, представляющий параметры запроса для users.report <para/>
     /// Документация: <see href="https://vk.com/dev/users.report"/>
     /// </summary>
-    public interface IUserReportParameters
+    public interface IUserReportParameters : IUserIdParameter
     {
-        /// <summary>
-        /// Идентификатор пользователя<para/>
-        /// Обязательный параметр
-        /// </summary>
-        int UserId { get; set; }
-
         /// <summary>
         /// Тип жалобы<para/>
         /// Обязательный параметр

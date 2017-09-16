@@ -12,7 +12,7 @@
 		<Description>Схема типов для работы с Vk Api</Description>
 		<PackageId>Vk.Api.Schema</PackageId>
 	<PackageVersion></PackageVersion>
-		<PackageTags>csharp;vk;api;schema;</PackageTags>
+		<PackageTags>csharp;vk;api;schema;sdk;</PackageTags>
 		<PackageIconUrl>https://avatars2.githubusercontent.com/u/31795701</PackageIconUrl>
 		<PackageProjectUrl>https://github.com/VkSharp/Vk.Api.Schema</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/VkSharp/Vk.Api.Schema</RepositoryUrl>
@@ -31,6 +31,11 @@
 		<Folder Include="Common\Group\" />
 		<Folder Include="Common\Wall\" />
 		<Folder Include="Parameters\App\" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="HttpPostSerializer" Version="1.0.1" />
+	  <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
 	</ItemGroup>
 	
 </Project>
