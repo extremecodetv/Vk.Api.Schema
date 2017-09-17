@@ -50,7 +50,7 @@ Task("BuildPackages")
 	};
 
 	 MSBuild("./src/Vk.Api.Schema/Vk.Api.Schema.csproj", new MSBuildSettings().SetConfiguration("Release"));
-     NuGetPack("./src/Vk.Api.Schema/Vk.Api.Schema.csproj", nuGetPackSettings);
+     //NuGetPack("./src/Vk.Api.Schema/Vk.Api.Schema.csproj", nuGetPackSettings);
 });
 
 Task("BuildTests")
