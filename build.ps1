@@ -191,5 +191,6 @@ $ScriptArgs | % {
 
 # Start Cake
 Write-Host "Running build script..."
+Write-Host "& `"$CAKE_EXE`" `"$Script`" -target=`"$Target`" -configuration=`"$Configuration`" -verbosity=`"$Verbosity`" $UseMono $UseDryRun $UseExperimental $ScriptArgsFormatted"
 Invoke-Expression "& `"$CAKE_EXE`" `"$Script`" -target=`"$Target`" -configuration=`"$Configuration`" -verbosity=`"$Verbosity`" $UseMono $UseDryRun $UseExperimental $ScriptArgsFormatted"
 exit $LASTEXITCODE
