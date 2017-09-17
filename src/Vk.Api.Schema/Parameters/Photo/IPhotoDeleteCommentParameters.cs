@@ -2,13 +2,13 @@
 namespace Vk.Api.Schema.Parameters.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для photos.deleteComment <para/>
+    /// Интерфейс, представляющий параметры запроса для photos.deleteComment <para/>
     /// Документация: <see href="https://vk.com/dev/photos.deleteComment"/>
     /// </summary>
     public interface IPhotoDeleteCommentParameters
     {
         /// <summary>
-        /// Идентификатор пользователя или сообщества 
+        /// Идентификатор пользователя или сообщества, 
         /// которому принадлежит комментарий
         /// </summary>
         int OwnerId { get; set; }

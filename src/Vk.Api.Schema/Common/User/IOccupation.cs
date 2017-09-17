@@ -8,19 +8,19 @@ namespace Vk.Api.Schema.Common.User
     public interface IOccupation
     {
         /// <summary>
-        /// Тип деятельности, (если доступно)
+        /// Тип деятельности, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         OccupationType? Type { get; set; }
 
         /// <summary>
-        /// Идентификатор учереждения в котором состоит пользователь, (если доступно)
+        /// Идентификатор учереждения в котором состоит пользователь, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? Id { get; set; }
 
         /// <summary>
-        /// Название учереждения, (если доступно)
+        /// Название учереждения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string Name { get; set; }

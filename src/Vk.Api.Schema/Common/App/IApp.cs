@@ -3,7 +3,7 @@
 namespace Vk.Api.Schema.Common.App
 {
     /// <summary>
-    /// Интерфейс для представления информации о приложении ВКонтакте<para/>
+    /// Интерфейс для представления информации о приложении "ВКонтакте"<para/>
     /// Документация: <see href="https://vk.com/dev/objects/app">objects.app</see>
     /// </summary>
     public interface IApp : IAppCreatorData, IAppMedia,
@@ -15,7 +15,7 @@ namespace Vk.Api.Schema.Common.App
         int MembersCount { get; set; }
 
         /// <summary>
-        /// Описание приложения (если доступно),
+        /// Описание приложения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string Description { get; set; }
@@ -34,8 +34,8 @@ namespace Vk.Api.Schema.Common.App
         string ScreenName { get; set; }
 
         /// <summary>
-        /// Определяет, содержит ли информация о приложении опциональные поля (если доступно),
-        /// иначе <see langword="null"/>
+        /// Определяет, содержит ли информация о приложении опциональные поля.
+        /// Если недоступно, <see langword="null"/>
         /// </summary>
         bool? Extended { get; set; }
     }

@@ -1,7 +1,7 @@
 ﻿namespace Vk.Api.Schema.Common.Poll
 {
     /// <summary>
-    /// Интерфейс для представления информации об ответах в опросе ВКонтакте
+    /// Интерфейс для представления информации об ответах в опросе "ВКонтакте"
     /// </summary>
     public interface IAnswerVariant
     {

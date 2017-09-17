@@ -9,13 +9,13 @@ namespace Vk.Api.Schema.Common.User
     public interface ILastSeen
     {
         /// <summary>
-        /// Время последнего посещения, (если доступно)
+        /// Время последнего посещения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? Time { get; set; }
 
         /// <summary>
-        /// Платформа, с помощью которой был осуществлен последний вход, (если доступно)
+        /// Платформа, с помощью которой был осуществлен последний вход, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
         Platform? Platform { get; set; }

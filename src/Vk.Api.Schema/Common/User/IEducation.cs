@@ -8,31 +8,31 @@ namespace Vk.Api.Schema.Common.User
     public interface IEducation
     {
         /// <summary>
-        /// Идентификатор университета (если доступно),
+        /// Идентификатор университета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? UniversityId { get; set; }
 
         /// <summary>
-        /// Название университета (если доступно),
+        /// Название университета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string UniversityName { get; set; }
 
         /// <summary>
-        /// Идентификатор факультета (если доступно),
+        /// Идентификатор факультета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? FacultyId { get; set; }
 
         /// <summary>
-        /// Название факультета (если доступно),
+        /// Название факультета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string FacultyName { get; set; }
 
         /// <summary>
-        /// Год окончания (если доступно),
+        /// Год окончания, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? Graduation { get; set; }

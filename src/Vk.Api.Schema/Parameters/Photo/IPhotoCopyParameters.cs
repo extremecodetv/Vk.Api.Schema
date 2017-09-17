@@ -2,7 +2,7 @@
 namespace Vk.Api.Schema.Parameters.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для photos.copy <para/>
+    /// Интерфейс, представляющий параметры запроса для photos.copy <para/>
     /// Документация: <see href="https://vk.com/dev/photos.copy"/>
     /// </summary>
     public interface IPhotoCopyParameters

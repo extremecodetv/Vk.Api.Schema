@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Vk.Api.Schema.Common.Poll
 {
     /// <summary>
-    /// Интерфейс для представления общей информации об опросе ВКонтакте <para/>
+    /// Интерфейс для представления общей информации об опросе "ВКонтакте" <para/>
     /// Документация: <see href="https://vk.com/dev/objects/poll">objects.poll</see>
     /// </summary>
     public interface IPollCommon

@@ -8,31 +8,31 @@ namespace Vk.Api.Schema.Common.User
     public interface IMilitary
     {
         /// <summary>
-        /// Номер части, (если доступно)
+        /// Номер части, если доступен,
         /// иначе <see langword="null"/> 
         /// </summary>
         string Unit { get; set; }
 
         /// <summary>
-        /// Идентификатор части, (если доступно)
+        /// Идентификатор части, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? Id { get; set; }
 
         /// <summary>
-        /// Идентификатор страны, (если доступно)
+        /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? CountryId { get; set; }
 
         /// <summary>
-        /// Год начала службы, (если доступно)
+        /// Год начала службы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? FromDate { get; set; }
 
         /// <summary>
-        /// Год окончания службы, (если доступно)
+        /// Год окончания службы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? UntilDate { get; set; }

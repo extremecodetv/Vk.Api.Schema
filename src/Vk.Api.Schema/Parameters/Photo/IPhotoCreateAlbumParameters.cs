@@ -2,7 +2,7 @@
 namespace Vk.Api.Schema.Parameters.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для photos.createAlbum <para/>
+    /// Интерфейс, представляющий параметры запроса для photos.createAlbum <para/>
     /// Документация: <see href="https://vk.com/dev/photos.createAlbum"/>
     /// </summary>
     public interface IPhotoCreateAlbumParameters
@@ -13,7 +13,7 @@ namespace Vk.Api.Schema.Parameters.Photo
         string Title { get; set; }
 
         /// <summary>
-        /// Идентификатор сообщества в котором создается альбом
+        /// Идентификатор сообщества, в котором создается альбом
         /// </summary>
         int? GroupId { get; set; }
         

@@ -3,72 +3,72 @@
 namespace Vk.Api.Schema.Common.User
 {
     /// <summary>
-    /// Интерфейс для представления информации информацию о ВУЗе
+    /// Интерфейс для представления информации информацию о вузе
     /// </summary>
     public interface IUniversity
     {
         /// <summary>
-        /// Идентификатор ВУЗа, (если доступно)
+        /// Идентификатор вуза, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? Id { get; set; }
 
         /// <summary>
-        /// Идентификатор страны, (если доступно)
+        /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? CountryId { get; set; }
 
         /// <summary>
-        /// Идентификатор города, (если доступно)
+        /// Идентификатор города, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? CityId { get; set; }
 
         /// <summary>
-        /// Наименование ВУЗа, (если доступно)
+        /// Наименование вуза, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string Name { get; set; }
 
         /// <summary>
-        /// Идентификатор факультета, (если доступно)
+        /// Идентификатор факультета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? FacultyId { get; set; }
 
         /// <summary>
-        /// Наименование факультета, (если доступно)
+        /// Наименование факультета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string FacultyName { get; set; }
 
         /// <summary>
-        /// Идентификатор кафедры, (если доступно)
+        /// Идентификатор кафедры, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? ChairId { get; set; }
 
         /// <summary>
-        /// Наименование кафедры, (если доступно)
+        /// Наименование кафедры, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string ChairName { get; set; }
 
         /// <summary>
-        /// Год окончания обучения, (если доступно)
+        /// Год окончания обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? GraduationDate { get; set; }
 
         /// <summary>
-        /// Форма обучения, (если доступно)
+        /// Форма обучения, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
         string EducationForm { get; set; }
 
         /// <summary>
-        /// Статус обучения, (если доступно)
+        /// Статус обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         string EducationStatus { get; set; }

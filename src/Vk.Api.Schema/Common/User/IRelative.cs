@@ -8,7 +8,7 @@ namespace Vk.Api.Schema.Common.User
     public interface IRelative
     {
         /// <summary>
-        /// Идентификатор пользователя, (если доступно)
+        /// Идентификатор пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? Id { get; set; }

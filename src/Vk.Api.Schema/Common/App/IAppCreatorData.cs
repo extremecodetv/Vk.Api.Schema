@@ -3,7 +3,7 @@
 namespace Vk.Api.Schema.Common.App
 {
     /// <summary>
-    /// Интерфейс для представления информации об авторе приложения ВКонтакте
+    /// Интерфейс для представления информации об авторе приложения "ВКонтакте"
     /// </summary>
     public interface IAppCreatorData
     {
@@ -18,7 +18,7 @@ namespace Vk.Api.Schema.Common.App
         int AuthorId { get; set; }
 
         /// <summary>
-        /// Идентификатор официальной группы приложения (если доступно),
+        /// Идентификатор официальной группы приложения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? AuthorGroupId { get; set; }

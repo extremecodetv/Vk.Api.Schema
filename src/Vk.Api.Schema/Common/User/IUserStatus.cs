@@ -7,7 +7,7 @@ namespace Vk.Api.Schema.Common.User
     public interface IUserStatus
     {
         /// <summary>
-        /// Статус пользователя, (если доступно)
+        /// Статус пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         string Status { get; set; }

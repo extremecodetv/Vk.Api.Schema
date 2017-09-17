@@ -2,7 +2,7 @@
 namespace Vk.Api.Schema.Enums.User
 {
     /// <summary>
-    /// Отношение к чему либо (алкоголь, курение)
+    /// Отношение к чему-либо (алкоголь, курение)
     /// </summary>
     public enum AttitudeType
     {

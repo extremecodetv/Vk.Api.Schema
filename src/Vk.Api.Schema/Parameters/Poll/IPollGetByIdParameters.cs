@@ -14,7 +14,7 @@ namespace Vk.Api.Schema.Parameters.Poll
         int OwnerId { get; set; }
 
         /// <summary>
-        /// Определяет находится ли опрос в обсуждении или прикреплён к стене
+        /// Определяет, находится ли опрос в обсуждении или прикреплён ли к стене
         /// </summary>
         PollBoardType Board { get; set; }
 

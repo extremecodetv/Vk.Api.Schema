@@ -29,7 +29,7 @@ namespace Vk.Api.Schema.Parameters.Poll
         IEnumerable<string> AddAnswers { get; set; }
 
         /// <summary>
-        /// Содержит коллекцию вариантов ответов, которые необходимо отредактировать;
+        /// Содержит коллекцию вариантов ответов, которые необходимо отредактировать
         /// </summary>
         IEnumerable<IPollEditAnswerVariant> EditAnswers { get; set; }
 

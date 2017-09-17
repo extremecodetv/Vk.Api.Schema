@@ -3,7 +3,7 @@
 namespace Vk.Api.Schema.Media.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий отметку на фотографии
+    /// Интерфейс, представляющий отметку на фотографии
     /// </summary>
     public interface ITag
     {
@@ -38,7 +38,7 @@ namespace Vk.Api.Schema.Media.Photo
         Rect? Rect { get; set; }
 
         /// <summary>
-        /// Статус отметки, возвращает <see langword="true"/>, если подтвержденная
+        /// Статус отметки. Возвращает <see langword="true"/>, если подтвержденная
         /// </summary>
         bool? IsViewed { get; set; }
     }

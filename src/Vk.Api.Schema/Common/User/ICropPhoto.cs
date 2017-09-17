@@ -10,7 +10,7 @@ namespace Vk.Api.Schema.Common.User
     public interface ICropPhoto
     {
         /// <summary>
-        /// Фотография пользователя из которой
+        /// Фотография пользователя, из которой
         /// вырезается главное фото профиля
         /// </summary>
         IPhoto Photo { get; set; }

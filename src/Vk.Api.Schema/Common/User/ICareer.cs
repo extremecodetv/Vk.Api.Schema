@@ -8,49 +8,49 @@ namespace Vk.Api.Schema.Common.User
     public interface ICareer
     {
         /// <summary>
-        /// Идентификатор сообщества (если доступно),
+        /// Идентификатор сообщества, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? GroupId { get; set; }
 
         /// <summary>
-        /// Название компании (если доступно),
+        /// Название компании, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string Company { get; set; }
 
         /// <summary>
-        /// Идентификатор страны (если доступно),
+        /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? CountryId { get; set; }
 
         /// <summary>
-        /// Идентификатор города (если доступно),
+        /// Идентификатор города, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         int? CityId { get; set; }
 
         /// <summary>
-        /// Название города (если доступно),
+        /// Название города, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
         string CityName { get; set; }
 
         /// <summary>
-        /// Год начала работы (если доступно),
+        /// Год начала работы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? FromDate { get; set; }
 
         /// <summary>
-        /// Год окончания работы (если доступно),
+        /// Год окончания работы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
         DateTime? UntilDate { get; set; }
 
         /// <summary>
-        /// Должность (если доступно),
+        /// Должность, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
         string Position { get; set; }

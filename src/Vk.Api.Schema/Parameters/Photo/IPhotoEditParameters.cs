@@ -2,13 +2,13 @@
 namespace Vk.Api.Schema.Parameters.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для photos.edit <para/>
+    /// Интерфейс, представляющий параметры запроса для photos.edit <para/>
     /// Документация: <see href="https://vk.com/dev/photos.edit"/>
     /// </summary>
     public interface IPhotoEditParameters
     {
         /// <summary>
-        /// Идентификатор пользователя или сообщества
+        /// Идентификатор пользователя или сообщества,
         /// которому принадлежит фотография
         /// </summary>
         int OwnerId { get; set; }
@@ -47,8 +47,8 @@ namespace Vk.Api.Schema.Parameters.Photo
         int? ForsquareId { get; set; }
 
         /// <summary>
-        /// Необходимо ли удалить место, 
-        /// если <see langword="true"/>, то удалится
+        /// Необходимо ли удалить место.
+        /// Если <see langword="true"/>, то удалится
         /// </summary>
         bool? DeletePlace { get; set; }
     }

@@ -3,13 +3,13 @@
 namespace Vk.Api.Schema.Parameters.Photo
 {
     /// <summary>
-    /// Интерфейс представляющий параметры запроса для photos.createComment <para/>
+    /// Интерфейс, представляющий параметры запроса для photos.createComment <para/>
     /// Документация: <see href="https://vk.com/dev/photos.createComment"/>
     /// </summary>
     public interface IPhotoCreateCommentParameters
     {
         /// <summary>
-        /// Идентификатор пользователя или сообщества 
+        /// Идентификатор пользователя или сообщества, 
         /// которому принадлежит фотография
         /// </summary>
         int OwnerId { get; set; }
@@ -41,7 +41,7 @@ namespace Vk.Api.Schema.Parameters.Photo
         bool? FromGroup { get; set; }
 
         /// <summary>
-        /// Идентификатор комментария в ответ на который нужно
+        /// Идентификатор комментария, в ответ на который нужно
         /// оставить текущий комментарий
         /// </summary>
         int? ReplyToComment { get; set; }
