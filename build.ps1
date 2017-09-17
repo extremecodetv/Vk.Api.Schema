@@ -183,7 +183,13 @@ if (!(Test-Path $CAKE_EXE)) {
     Throw "Could not find Cake.exe at $CAKE_EXE"
 }
 
+[string] $ScriptArgsFormatted = "";
+$ScriptArgs | % { 
+    $temp = $_ -Split '=' 
+    "{0}=`"{1}`"" -f $temp[0],$temp[1] 
+} | % { $ScriptArgsFormatted += $_ }
+
 # Start Cake
 Write-Host "Running build script..."
-Invoke-Expression "& `"$CAKE_EXE`" `"$Script`" -target=`"$Target`" -configuration=`"$Configuration`" -verbosity=`"$Verbosity`" $UseMono $UseDryRun $UseExperimental $ScriptArgs"
+Invoke-Expression "& `"$CAKE_EXE`" `"$Script`" -target=`"$Target`" -configuration=`"$Configuration`" -verbosity=`"$Verbosity`" $UseMono $UseDryRun $UseExperimental $ScriptArgsFormatted"
 exit $LASTEXITCODE
