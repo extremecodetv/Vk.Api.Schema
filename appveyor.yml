@@ -24,3 +24,11 @@ deploy:
    artifact: /.*\.nupkg/
    on:
      branch: master
+     
+ - provider: NuGet
+   server: https://www.myget.org/F/vk-api-schema/api/v2/package
+   api_key:
+     secure: 5hNHtZsz8pxougmcZNm9qlwWzQn0MT6CP5PX8CXcBki9Ve1hB8h1l4PEPsuA8QFK
+   artifact: /.*\.nupkg/
+   on:
+     branch: master
