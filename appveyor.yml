@@ -13,7 +13,7 @@ dotnet_csproj:
   
 build:
     project: Vk.Api.Schema.sln
-    publish_nuget: false
+    publish_nuget: true
     publish_nuget_symbols: false
     verbosity: minimal
 
@@ -23,7 +23,7 @@ deploy:
      secure: swbVO/mLDF9LqZnkMZJ2YDtPkdPyjQxrqLk79gYbBaT/fbhkmEGPEpuYZqyor9RK
    artifact: /.*\.nupkg/
    on:
-     branch: master
+     branch: some_branch
      
  - provider: NuGet
    server: https://www.myget.org/F/vk-api-schema/api/v2/package
