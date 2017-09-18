@@ -1,14 +1,14 @@
-using System;
-using Xunit;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Vk.Api.Schema.Tests
 {
+    [TestClass]
     public class UnitTest1
     {
-        [Fact]
-        public void Test1()
+        [TestMethod]
+        public void TestMethod1()
         {
-            Assert.True(true);
+            Assert.IsTrue(true);
         }
     }
 }
