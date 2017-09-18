@@ -1,0 +1,26 @@
+image: Visual Studio 2017
+
+skip_branch_with_pr: true
+  
+before_build:
+  - nuget restore Vk.Api.Schema.sln
+    
+dotnet_csproj:
+  patch: true
+  file: src\Vk.Api.Schema\Vk.Api.Schema.csproj
+  version: $(appveyor_build_version)
+  package_version: $(appveyor_build_version)
+  
+build:
+    project: Vk.Api.Schema.sln
+    publish_nuget: false
+    publish_nuget_symbols: false
+    verbosity: minimal
+
+deploy:
+ - provider: NuGet
+   api_key:
+     secure: swbVO/mLDF9LqZnkMZJ2YDtPkdPyjQxrqLk79gYbBaT/fbhkmEGPEpuYZqyor9RK
+   artifact: /.*\.nupkg/
+   on:
+     branch: master
