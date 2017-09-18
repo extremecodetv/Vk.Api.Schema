@@ -2,7 +2,7 @@
 
 using Vk.Api.Schema.Enums;
 
-namespace Vk.Api.Schema.Media.Photo
+namespace Vk.Api.Schema.Common.Media.Photo
 {
     /// <summary>
     /// Интерфейс, представляющий копию изображения с определенными пропорциями и размером

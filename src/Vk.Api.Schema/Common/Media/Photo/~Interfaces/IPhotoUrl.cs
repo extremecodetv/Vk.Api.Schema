@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Vk.Api.Schema.Media.Photo
+namespace Vk.Api.Schema.Common.Media.Photo
 {
     /// <summary>
     /// Интерфейс, содержащий <see cref="Uri"/> на копии <see cref="IPhoto"/> в различных пропорциях

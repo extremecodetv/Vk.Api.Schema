@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using Vk.Api.Schema.Media.Photo;
+using Vk.Api.Schema.Common.Media.Photo;
 
 namespace Vk.Api.Schema.Common.App
 {

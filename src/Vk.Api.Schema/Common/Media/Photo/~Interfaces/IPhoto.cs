@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Vk.Api.Schema.Media.Photo
+namespace Vk.Api.Schema.Common.Media.Photo
 {
     /// <summary>
     /// Интерфейс, представляющий информацию о фотографии

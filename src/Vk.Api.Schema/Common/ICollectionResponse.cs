@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Vk.Api.Schema.Responses
+namespace Vk.Api.Schema.Common
 {
     public interface ICollectionResponse<out T>
     {
