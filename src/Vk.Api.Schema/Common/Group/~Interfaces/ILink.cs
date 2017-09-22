@@ -22,6 +22,8 @@ namespace Vk.Api.Schema.Common.Group
         /// </summary>
         string Name { get; }
 
+        //TODO: Implement can_edit
+
         /// <summary>
         /// Описание ссылки
         /// </summary>

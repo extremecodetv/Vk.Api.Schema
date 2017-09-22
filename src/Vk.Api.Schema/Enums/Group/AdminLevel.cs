@@ -9,7 +9,7 @@ namespace Vk.Api.Schema.Enums.Group
         /// <summary>
         /// Модератор
         /// </summary>
-        Moderator,
+        Moderator = 1,
         /// <summary>
         /// Редактор
         /// </summary>

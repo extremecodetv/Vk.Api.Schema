@@ -1,4 +1,4 @@
-﻿namespace Vk.Api.Schema.Common
+﻿namespace Vk.Api.Schema.Common.Media.Geo
 {
     /// <summary>
     /// Интерфейс, представляющий информацию о местоположении

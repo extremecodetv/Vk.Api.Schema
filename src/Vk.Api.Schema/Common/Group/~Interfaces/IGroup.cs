@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
-
+using Vk.Api.Schema.Common.Market;
+using Vk.Api.Schema.Common.Media.Geo;
 using Vk.Api.Schema.Enums;
 using Vk.Api.Schema.Enums.Group;
 
@@ -10,7 +11,7 @@ namespace Vk.Api.Schema.Common.Group
     /// Интерфейс для представления информации о сообществе "ВКонтакте"<para/>
     /// Документация: <see href="https://vk.com/dev/objects/group">objects.group</see>
     /// </summary>
-    public interface IGroup
+    public interface IGroup  //TODO: Photos
     {
         /// <summary>
         /// Идентификатор сообщества

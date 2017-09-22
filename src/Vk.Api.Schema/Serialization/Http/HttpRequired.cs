@@ -1,7 +1,10 @@
 ﻿
 namespace Vk.Api.Schema.Serialization.Http
 {
-    internal enum HttpRequired
+
+#pragma warning disable 1591
+
+    public enum HttpRequired
     {
         Always,
         DisallowNull

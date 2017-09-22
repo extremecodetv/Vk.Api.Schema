@@ -1,4 +1,4 @@
-﻿namespace Vk.Api.Schema.Common.Group
+﻿namespace Vk.Api.Schema.Common.Market
 {
     /// <summary>
     /// Интерфейс, представляющий информацию о магазине

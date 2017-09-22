@@ -2,7 +2,10 @@
 
 namespace Vk.Api.Schema.Serialization.Http
 {
-    internal class HttpPropertyAttribute : Attribute
+
+#pragma warning disable 1591
+
+    public class HttpPropertyAttribute : Attribute
     {
         private string parameterName;
 
