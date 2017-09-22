@@ -10,21 +10,21 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// <summary>
         /// Смещение левого верхнего угла по координате X (в процентах)
         /// </summary>
-        double X { get; set; }
+        double X { get; }
 
         /// <summary>
         /// Смещение левого верхнего угла по координате Y (в процентах)
         /// </summary>
-        double Y { get; set; }
+        double Y { get; }
 
         /// <summary>
         /// Смещение правого нижнего угла по координате X (в процентах)
         /// </summary>
-        double X2 { get; set; }
+        double X2 { get; }
 
         /// <summary>
         /// Смещение правого нижнего угла по координате Y (в процентах)
         /// </summary>
-        double Y2 { get; set; }
+        double Y2 { get; }
     }
 }

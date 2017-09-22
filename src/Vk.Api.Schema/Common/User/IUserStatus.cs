@@ -10,7 +10,7 @@ namespace Vk.Api.Schema.Common.User
         /// Статус пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Status { get; set; }
+        string Status { get; }
 
         //TODO: audio_status
 

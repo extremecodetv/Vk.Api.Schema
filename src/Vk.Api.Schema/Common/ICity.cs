@@ -1,5 +1,5 @@
 ﻿
-namespace Vk.Api.Schema.Common.User
+namespace Vk.Api.Schema.Common
 {
     /// <summary>
     /// Интерфейс для представления информации о городе
@@ -9,11 +9,11 @@ namespace Vk.Api.Schema.Common.User
         /// <summary>
         /// Идентификатор города
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Название города
         /// </summary>
-        string Title { get; set; }
+        string Title { get; }
     }
 }

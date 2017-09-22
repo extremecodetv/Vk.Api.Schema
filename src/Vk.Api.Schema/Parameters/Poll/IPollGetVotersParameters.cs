@@ -2,6 +2,7 @@
 
 using Vk.Api.Schema.Enums;
 using Vk.Api.Schema.Enums.Poll;
+using Vk.Api.Schema.Enums.User;
 
 namespace Vk.Api.Schema.Parameters.Poll
 {

@@ -11,16 +11,16 @@ namespace Vk.Api.Schema.Common.User
         /// Идентификатор пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Имя родственника
         /// </summary>
-        string Name { get; set; }
+        string Name { get; }
 
         /// <summary>
         /// Тип родственной связи
         /// </summary>
-        RelationshipType? Type { get; set; }
+        RelationshipType? Type { get; }
     }
 }

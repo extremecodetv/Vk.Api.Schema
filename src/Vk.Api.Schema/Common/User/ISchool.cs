@@ -13,60 +13,60 @@ namespace Vk.Api.Schema.Common.User
         /// Идентификатор школы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CountryId { get; set; }
+        int? CountryId { get; }
 
         /// <summary>
         /// Идентификатор города, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CityId { get; set; }
+        int? CityId { get; }
 
         /// <summary>
         /// Наименование школы, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Name { get; set; }
+        string Name { get; }
 
         /// <summary>
         /// Год начала обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? FromDate { get; set; }
+        DateTime? FromDate { get; }
 
         /// <summary>
         /// Год окончания обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? ToDate { get; set; }
+        DateTime? ToDate { get; }
 
         /// <summary>
         /// Год выпуска, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? GraduateDate { get; set; }
+        DateTime? GraduateDate { get; }
 
         /// <summary>
         /// Буква класса, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Class { get; set; }
+        string Class { get; }
 
         /// <summary>
         /// Специализация, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Speciality { get; set; }
+        string Speciality { get; }
 
         /// <summary>
         /// Тип школы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        SchoolType? Type { get; set; }
+        SchoolType? Type { get; }
     }
 }

@@ -12,36 +12,36 @@ namespace Vk.Api.Schema.Common.Poll
         /// <summary>
         /// Идентификатор опроса
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Идентификатор владельца опроса
         /// </summary>
-        int OwnerId { get; set; }
+        int OwnerId { get; }
 
         /// <summary>
         /// Дата создания опроса
         /// </summary>
-        DateTime CreateDate { get; set; }
+        DateTime CreateDate { get; }
 
         /// <summary>
         /// Текст вопроса
         /// </summary>
-        string Question { get; set; }
+        string Question { get; }
 
         /// <summary>
         /// Количество голосов
         /// </summary>
-        int Votes { get; set; }
+        int Votes { get; }
 
         /// <summary>
         /// Коллекция объектов, которые содержат информацию о вариантах ответа
         /// </summary>
-        IEnumerable<IAnswerVariant> AnswerVariants { get; set; }
+        IEnumerable<IAnswerVariant> AnswerVariants { get; }
 
         /// <summary>
         /// Является ли вопрос анонимным
         /// </summary>
-        bool IsAnonymous { get; set; }
+        bool IsAnonymous { get; }
     }
 }

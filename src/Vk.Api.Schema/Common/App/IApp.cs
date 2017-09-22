@@ -12,18 +12,18 @@ namespace Vk.Api.Schema.Common.App
         /// <summary>
         /// Количество участников приложения
         /// </summary>
-        int MembersCount { get; set; }
+        int MembersCount { get; }
 
         /// <summary>
         /// Описание приложения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Description { get; set; }
+        string Description { get; }
 
         /// <summary>
         /// Тип турнирной таблицы
         /// </summary>
-        AppLeaderBoardType LeaderBoardType { get; set; }
+        AppLeaderBoardType LeaderBoardType { get; }
 
         /// <summary>
         /// Короткий адрес приложения
@@ -31,12 +31,12 @@ namespace Vk.Api.Schema.Common.App
         /// <remarks>
         /// Если недоступен, то равен idxxxxxxxx
         /// </remarks>
-        string ScreenName { get; set; }
+        string ScreenName { get; }
 
         /// <summary>
         /// Определяет, содержит ли информация о приложении опциональные поля.
         /// Если недоступно, <see langword="null"/>
         /// </summary>
-        bool? Extended { get; set; }
+        bool? Extended { get; }
     }
 }

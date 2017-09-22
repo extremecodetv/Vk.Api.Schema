@@ -11,6 +11,6 @@ namespace Vk.Api.Schema.Common.Media.Document
         /// <summary>
         /// Коллекция копий изображений в разных размерах
         /// </summary>
-        IEnumerable<IPhotoSize> Sizes { get; set; }
+        IEnumerable<IPhotoSize> Sizes { get; }
     }
 }

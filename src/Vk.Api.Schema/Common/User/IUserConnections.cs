@@ -8,9 +8,9 @@ namespace Vk.Api.Schema.Common.User
     public interface IUserConnections
     {
 
-        string Skype { get; set; }
+        string Skype { get; }
 
-        string Instagram { get; set; }
+        string Instagram { get; }
 
 
     }

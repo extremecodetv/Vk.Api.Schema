@@ -10,18 +10,18 @@ namespace Vk.Api.Schema.Common.App
         /// <summary>
         /// Адрес страницы автора приложения
         /// </summary>
-        Uri AuthorUrl { get; set; }
+        Uri AuthorUrl { get; }
 
         /// <summary>
         /// Идентификатор автора приложения
         /// </summary>
-        int AuthorId { get; set; }
+        int AuthorId { get; }
 
         /// <summary>
         /// Идентификатор официальной группы приложения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AuthorGroupId { get; set; }
+        int? AuthorGroupId { get; }
 
     }
 }

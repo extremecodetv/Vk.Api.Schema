@@ -8,21 +8,21 @@
         /// <summary>
         /// Идентификатор ответа
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Текст ответа
         /// </summary>
-        string Text { get; set; }
+        string Text { get; }
 
         /// <summary>
         /// Число проголосовавших за этот ответ
         /// </summary>
-        int Votes { get; set; }
+        int Votes { get; }
 
         /// <summary>
         /// Рейтинг ответа
         /// </summary>
-        double Rate { get; set; }
+        double Rate { get; }
     }
 }

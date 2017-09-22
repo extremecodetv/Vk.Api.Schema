@@ -11,18 +11,18 @@ namespace Vk.Api.Schema.Common.User
         /// Тип деятельности, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        OccupationType? Type { get; set; }
+        OccupationType? Type { get; }
 
         /// <summary>
         /// Идентификатор учереждения в котором состоит пользователь, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Название учереждения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Name { get; set; }
+        string Name { get; }
     }
 }

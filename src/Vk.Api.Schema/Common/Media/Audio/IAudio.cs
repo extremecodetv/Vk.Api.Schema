@@ -1,5 +1,6 @@
 ﻿using System;
 using Vk.Api.Schema.Enums;
+using Vk.Api.Schema.Enums.Media;
 
 namespace Vk.Api.Schema.Common.Media.Audio
 {
@@ -12,64 +13,64 @@ namespace Vk.Api.Schema.Common.Media.Audio
         /// <summary>
         /// Идентификатор аудиозаписи
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Идентификатор владельца аудиозаписи
         /// </summary>
-        int OwnerId { get; set; }
+        int OwnerId { get; }
 
         /// <summary>
         /// Исполнитель
         /// </summary>
-        string Artist { get; set; }
+        string Artist { get; }
 
         /// <summary>
         /// Название композиции
         /// </summary>
-        string Title { get; set; }
+        string Title { get; }
 
         /// <summary>
         /// Длительность композиции
         /// </summary>
-        TimeSpan Duration { get; set; }
+        TimeSpan Duration { get; }
 
         /// <summary>
         /// Ссылка на MP3
         /// </summary>
-        Uri Url { get; set; }
+        Uri Url { get; }
 
         /// <summary>
         /// Идентификатор текста аудиозаписи, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? LyricsId { get; set; }
+        int? LyricsId { get; }
 
         /// <summary>
         /// Идентификатор альбома, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AlbumId { get; set; }
+        int? AlbumId { get; }
 
         /// <summary>
         /// Идентификатор жанра
         /// </summary>
-        AudioGenreType GenreId { get; set; }
+        AudioGenreType GenreId { get; }
 
         /// <summary>
         /// Дата добавления, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? Date { get; set; }
+        DateTime? Date { get; }
 
         /// <summary>
         /// <see langword="true"/>, если включена опция "Не выводить при поиске"
         /// </summary>
-        bool NoSearch { get; set; }
+        bool NoSearch { get; }
 
         /// <summary>
         /// <see langword="true"/>, если аудио в высоком качестве
         /// </summary>
-        bool IsHighQuality { get; set; }
+        bool IsHighQuality { get; }
     }
 }

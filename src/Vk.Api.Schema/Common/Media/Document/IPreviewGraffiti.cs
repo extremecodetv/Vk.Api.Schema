@@ -10,16 +10,16 @@ namespace Vk.Api.Schema.Common.Media.Document
         /// <summary>
         /// Url документа с граффити
         /// </summary>
-        Uri Url { get; set; }
+        Uri Url { get; }
 
         /// <summary>
         /// Ширина (в пикселях)
         /// </summary>
-        int Width { get; set; }
+        int Width { get; }
 
         /// <summary>
         /// Высота (в пикселях)
         /// </summary>
-        int Height { get; set; }
+        int Height { get; }
     }
 }

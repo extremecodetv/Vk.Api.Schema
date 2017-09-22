@@ -11,30 +11,30 @@ namespace Vk.Api.Schema.Common.User
         /// Идентификатор университета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? UniversityId { get; set; }
+        int? UniversityId { get; }
 
         /// <summary>
         /// Название университета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string UniversityName { get; set; }
+        string UniversityName { get; }
 
         /// <summary>
         /// Идентификатор факультета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? FacultyId { get; set; }
+        int? FacultyId { get; }
 
         /// <summary>
         /// Название факультета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string FacultyName { get; set; }
+        string FacultyName { get; }
 
         /// <summary>
         /// Год окончания, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? Graduation { get; set; }
+        DateTime? Graduation { get; }
     }
 }

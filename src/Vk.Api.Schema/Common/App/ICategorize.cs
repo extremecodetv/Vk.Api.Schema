@@ -10,41 +10,41 @@ namespace Vk.Api.Schema.Common.App
         /// <summary>
         /// Категория приложения
         /// </summary>
-        string Section { get; set; }
+        string Section { get; }
 
         /// <summary>
         /// Тип приложения
         /// </summary>
-        AppType Type { get; set; }
+        AppType Type { get; }
 
         /// <summary>
         /// Позиция приложения в каталоге
         /// </summary>
-        int CatalogPosition { get; set; }
+        int CatalogPosition { get; }
 
         /// <summary>
         /// Является ли приложение мультиязычным
         /// </summary>
-        bool IsInternational { get; set; }
+        bool IsInternational { get; }
 
         /// <summary>
         /// Идентификатор жанра
         /// </summary>
-        int GenreId { get; set; }
+        int GenreId { get; }
 
         /// <summary>
         /// Название жанра
         /// </summary>
-        string Genre { get; set; }
+        string Genre { get; }
 
         /// <summary>
         /// Идентификатор приложения в магазине приложений
         /// </summary>
-        string PlatformId { get; set; }
+        string PlatformId { get; }
 
         /// <summary>
         /// Доступно ли приложение в мобильном каталоге
         /// </summary>
-        bool IsInMobileCatalog { get; set; }
+        bool IsInMobileCatalog { get; }
     }
 }

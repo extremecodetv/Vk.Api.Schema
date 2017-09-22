@@ -13,19 +13,19 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// <summary>
         /// Идентификатор фотографии
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Идентификатор альбома, в котором находится фотография, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AlbumId { get; set; }
+        int? AlbumId { get; }
 
         /// <summary>
         /// Идентификатор владельца фотографии, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? OwnerId { get; set; }
+        int? OwnerId { get; }
 
         /// <summary>
         /// Идентификатор пользователя загрузившего фотографию, если фотография загружена в сообществе.
@@ -34,25 +34,25 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// <remarks>
         /// Для фотографий, загруженых от имени сообщества, UserId = 100 (wtf?)
         /// </remarks>
-        int? UserId { get; set; }
+        int? UserId { get; }
 
         /// <summary>
         /// Текст описания фотографии, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Text { get; set; }
+        string Text { get; }
 
         /// <summary>
         /// Дата добавления фотографии, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? Date { get; set; }
+        DateTime? Date { get; }
 
         /// <summary>
         /// Коллекция с копиями изображения в разных размерах, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<IPhotoSize> Sizes { get; set; }
+        IEnumerable<IPhotoSize> Sizes { get; }
 
         /// <summary>
         /// Ширина оригинала фотографии в пикселях, если доступна,
@@ -61,7 +61,7 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// <remarks>
         /// В фотографиях опубликованых до 2012-го года отсутствует
         /// </remarks>
-        int? Width { get; set; }
+        int? Width { get; }
 
         /// <summary>
         /// Высота оригинала фотографии в пикселях, если доступна,
@@ -70,6 +70,6 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// <remarks>
         /// В фотографиях, опубликованых до 2012-го года, отсутствует
         /// </remarks>
-        int? Height { get; set; }
+        int? Height { get; }
     }
 }

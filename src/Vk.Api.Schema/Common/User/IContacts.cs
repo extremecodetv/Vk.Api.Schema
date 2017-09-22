@@ -10,12 +10,12 @@ namespace Vk.Api.Schema.Common.User
         /// Номер мобильного телефона, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string MobilePhone { get; set; }
+        string MobilePhone { get; }
 
         /// <summary>
         /// Номер домашнего телефона, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string HomePhone { get; set; }
+        string HomePhone { get; }
     }
 }

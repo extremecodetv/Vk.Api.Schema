@@ -13,48 +13,48 @@ namespace Vk.Api.Schema.Common.User
         /// Политические предпочтения, если доступны,
         /// иначе <see langword="null"/>
         /// </summary>
-        PoliticalType? Political { get; set; }
+        PoliticalType? Political { get; }
 
         /// <summary>
         /// Языки, если доступны,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<string> Languages { get; set; }
+        IEnumerable<string> Languages { get; }
 
         /// <summary>
         /// Мировозрение, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Religion { get; set; }
+        string Religion { get; }
 
         /// <summary>
         /// Источники вдохновления, если доступны,
         /// иначе <see langword="null"/>
         /// </summary>
-        string InspiredBy { get; set; }
+        string InspiredBy { get; }
 
         /// <summary>
         /// Главное в людях, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        PeopleMainType? PeopleMain { get; set; }
+        PeopleMainType? PeopleMain { get; }
 
         /// <summary>
         /// Главное в жизни, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        LifeMainType? LifeMain { get; set; }
+        LifeMainType? LifeMain { get; }
 
         /// <summary>
         /// Отношение к курению, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        AttitudeType? Smoking { get; set; }
+        AttitudeType? Smoking { get; }
 
         /// <summary>
         /// Отношению к алкоголю, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        AttitudeType? Alcohol { get; set; }
+        AttitudeType? Alcohol { get; }
     }
 }

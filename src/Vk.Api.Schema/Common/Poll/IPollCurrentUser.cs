@@ -10,6 +10,6 @@
         /// Идентификатор ответа, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AnswerId { get; set; }
+        int? AnswerId { get; }
     }
 }

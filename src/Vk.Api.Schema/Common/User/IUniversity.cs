@@ -11,66 +11,66 @@ namespace Vk.Api.Schema.Common.User
         /// Идентификатор вуза, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CountryId { get; set; }
+        int? CountryId { get; }
 
         /// <summary>
         /// Идентификатор города, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CityId { get; set; }
+        int? CityId { get; }
 
         /// <summary>
         /// Наименование вуза, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Name { get; set; }
+        string Name { get; }
 
         /// <summary>
         /// Идентификатор факультета, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? FacultyId { get; set; }
+        int? FacultyId { get; }
 
         /// <summary>
         /// Наименование факультета, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string FacultyName { get; set; }
+        string FacultyName { get; }
 
         /// <summary>
         /// Идентификатор кафедры, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? ChairId { get; set; }
+        int? ChairId { get; }
 
         /// <summary>
         /// Наименование кафедры, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string ChairName { get; set; }
+        string ChairName { get; }
 
         /// <summary>
         /// Год окончания обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? GraduationDate { get; set; }
+        DateTime? GraduationDate { get; }
 
         /// <summary>
         /// Форма обучения, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string EducationForm { get; set; }
+        string EducationForm { get; }
 
         /// <summary>
         /// Статус обучения, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string EducationStatus { get; set; }
+        string EducationStatus { get; }
     }
 }

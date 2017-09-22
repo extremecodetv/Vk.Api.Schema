@@ -1,4 +1,5 @@
-﻿namespace Vk.Api.Schema.Enums
+﻿
+namespace Vk.Api.Schema.Enums.Media
 {
     /// <summary>
     /// Пропорции изображения

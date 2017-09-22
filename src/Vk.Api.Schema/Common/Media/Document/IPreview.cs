@@ -10,18 +10,18 @@ namespace Vk.Api.Schema.Common.Media.Document
         /// Изображение для предпросмотра, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        IPreviewPhoto Photo { get; set; }
+        IPreviewPhoto Photo { get; }
 
         /// <summary>
         /// Данные о граффити, если доступно, 
         /// иначе <see langword="null"/>
         /// </summary>
-        IPreviewGraffiti Graffiti { get; set; }
+        IPreviewGraffiti Graffiti { get; }
 
         /// <summary>
         /// Данные об аудиосообщении, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        IPreviewAudioMessage AudioMessage { get; set; }
+        IPreviewAudioMessage AudioMessage { get; }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Vk.Api.Schema.Enums.User;
+﻿using Vk.Api.Schema.Enums;
 
 namespace Vk.Api.Schema.Common.User
 {
@@ -11,17 +11,17 @@ namespace Vk.Api.Schema.Common.User
         /// <summary>
         /// Идентификатор пользователя
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Имя пользователя
         /// </summary>
-        string FirstName { get; set; }
+        string FirstName { get; }
 
         /// <summary>
         /// Фамилия пользователя
         /// </summary>
-        string LastName { get; set; }
+        string LastName { get; }
 
         /// <summary>
         /// Статус аккаунта <see cref="AccountStatus"/>
@@ -31,7 +31,7 @@ namespace Vk.Api.Schema.Common.User
         /// <remarks>
         /// Параметр "deactivated"
         /// </remarks>
-        AccountStatus? AccountStatus { get; set; }
+        BlockStatus? BlockStatus { get; }
 
         /// <summary>
         /// Видимость страницы. Возвращает <see langword="true"/>,
@@ -41,6 +41,6 @@ namespace Vk.Api.Schema.Common.User
         /// Возвращает <see langword="null"/>, если запрос был выполнен с access_token
         /// </summary>
         //TODO: Docs: cref для access_token
-        bool? IsHidden { get; set; }
+        bool? IsHidden { get; }
     }
 }

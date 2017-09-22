@@ -13,109 +13,109 @@ namespace Vk.Api.Schema.Common.User
         /// Содержимое поля профиля "О себе", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string About { get; set; }
+        string About { get; }
         
         /// <summary>
         /// Содержимое поля профиля "Деятельность", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Activities { get; set; }
+        string Activities { get; }
 
         /// <summary>
         /// Содержимое поля профиля "Любимая музыка", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Music { get; set; }
+        string Music { get; }
 
         /// <summary>
         /// Содержимое поля профиля "Любимые игры", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Games { get; set; }
+        string Games { get; }
 
         /// <summary>
         /// Содержимое поля профиля "Книги", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Books { get; set; }
+        string Books { get; }
 
         /// <summary>
         /// Содержимое поля профиля "Интересы", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Interests { get; set; }
+        string Interests { get; }
 
         /// <summary>
         /// Содержимое поля профиля "Любимые фильмы", если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Movies { get; set; }
+        string Movies { get; }
 
         /// <summary>
         /// Информация поля профиля "Любимые цитаты", если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Quotes { get; set; }
+        string Quotes { get; }
 
         /// <summary>
         /// Информация поля профиля "Любимые телешоу", если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Tv { get; set; }
+        string Tv { get; }
 
         /// <summary>
         /// Информация о карьере пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        ICareer Career { get; set; }
+        ICareer Career { get; }
 
         /// <summary>
         /// Информация о городе, указанном в профиле пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        ICity City { get; set; }
+        ICity City { get; }
 
         /// <summary>
         /// Информация о высшем учебном заведении пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEducation Education { get; set; }
+        IEducation Education { get; }
 
         /// <summary>
         /// Информация о военной службе пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IMilitary Military { get; set; }
+        IMilitary Military { get; }
 
         /// <summary>
         /// Информация о текущем роде деятельности пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IOccupation Occupation { get; set; }
+        IOccupation Occupation { get; }
 
         /// <summary>
         /// Информация поля профиля "Жизненная позиция", если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IPersonal Personal { get; set; }
+        IPersonal Personal { get; }
 
         /// <summary>
         /// Коллекция школ, в которых учился пользователь, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<ISchool> Schools { get; set; }
+        IEnumerable<ISchool> Schools { get; }
 
         /// <summary>
         /// Коллекция родственников текущего пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<IRelative> Relatives { get; set; }
+        IEnumerable<IRelative> Relatives { get; }
 
         /// <summary>
         /// Семейное положение пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        RelationshipType? Relationship { get; set; }
+        RelationshipType? Relationship { get; }
 
         //TODO: relation_partner
 
@@ -123,7 +123,7 @@ namespace Vk.Api.Schema.Common.User
         /// Коллекция вузов, в которых учился пользователь, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<IUniversity> Universities { get; set; }
+        IEnumerable<IUniversity> Universities { get; }
 
     }
 }

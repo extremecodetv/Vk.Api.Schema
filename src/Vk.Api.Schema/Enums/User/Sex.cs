@@ -1,5 +1,5 @@
 ﻿
-namespace Vk.Api.Schema.Enums
+namespace Vk.Api.Schema.Enums.User
 {
     /// <summary>
     /// Пол

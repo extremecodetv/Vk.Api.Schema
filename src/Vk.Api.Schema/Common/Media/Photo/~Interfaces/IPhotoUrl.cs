@@ -11,36 +11,36 @@ namespace Vk.Api.Schema.Common.Media.Photo
         /// URL копии фотографии с максимальным размером 75x75px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo75 { get; set; }
+        Uri Photo75 { get; }
 
         /// <summary>
         /// URL копии фотографии с максимальным размером 130x130px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo130 { get; set; }
+        Uri Photo130 { get; }
 
         /// <summary>
         /// URL копии фотографии с максимальным размером 604x604px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo604 { get; set; }
+        Uri Photo604 { get; }
 
         /// <summary>
         /// URL копии фотографии с максимальным размером 807x807px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo807 { get; set; }
+        Uri Photo807 { get; }
 
         /// <summary>
         /// URL копии фотографии с максимальным размером 1280x1024px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo1280 { get; set; }
+        Uri Photo1280 { get; }
 
         /// <summary>
         /// URL копии фотографии с максимальным размером 2560x2048px, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo2560 { get; set; }
+        Uri Photo2560 { get; }
     }
 }

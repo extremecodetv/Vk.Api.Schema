@@ -1,5 +1,6 @@
 ﻿using Vk.Api.Schema.Enums;
 using Vk.Api.Schema.Enums.Filters;
+using Vk.Api.Schema.Enums.User;
 
 namespace Vk.Api.Schema.Parameters.User
 {

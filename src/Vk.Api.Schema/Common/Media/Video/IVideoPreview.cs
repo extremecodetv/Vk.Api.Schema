@@ -10,23 +10,23 @@ namespace Vk.Api.Schema.Common.Media.Video
         /// <summary>
         /// URL изображения-обложки ролика с размером 130x98px
         /// </summary>
-        Uri Photo130 { get; set; }
+        Uri Photo130 { get; }
 
         /// <summary>
         /// URL изображения-обложки ролика с размером 320x240px
         /// </summary>
-        Uri Photo320 { get; set; }
+        Uri Photo320 { get; }
 
         /// <summary>
         /// URL изображения-обложки ролика с размером 640x480px, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo640 { get; set; }
+        Uri Photo640 { get; }
 
         /// <summary>
         /// URL изображения-обложки ролика с размером 800x450px, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Photo800 { get; set; }
+        Uri Photo800 { get; }
     }
 }

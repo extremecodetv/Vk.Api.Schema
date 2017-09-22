@@ -12,12 +12,12 @@ namespace Vk.Api.Schema.Common.User
         /// Время последнего посещения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? Time { get; set; }
+        DateTime? Time { get; }
 
         /// <summary>
         /// Платформа, с помощью которой был осуществлен последний вход, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        Platform? Platform { get; set; }
+        Platform? Platform { get; }
     }
 }

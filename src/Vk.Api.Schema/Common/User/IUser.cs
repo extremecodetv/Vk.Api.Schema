@@ -18,48 +18,48 @@ namespace Vk.Api.Schema.Common.User
         /// Дата рождения пользователя в формате D.M.YYYY или D.M, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? BirthDate { get; set; }
+        DateTime? BirthDate { get; }
 
         /// <summary>
         /// Находится ли пользователь в черном списке
         /// </summary>
-        bool IsBlacklisted { get; set; }
+        bool IsBlacklisted { get; }
 
         /// <summary>
         /// Находится ли пользователь в черном списке у текущего пользователя
         /// </summary>
-        bool IsBlacklistedByMe { get; set; }
+        bool IsBlacklistedByMe { get; }
 
         /// <summary>
         /// Может ли текущий пользователь оставлять записи на стене
         /// </summary>
-        bool CanPost { get; set; }
+        bool CanPost { get; }
 
         /// <summary>
         /// Может ли текущий пользователь видеть чужие записи на стене
         /// </summary>
-        bool CanSeeAllPosts { get; set; }
+        bool CanSeeAllPosts { get; }
 
         /// <summary>
         /// Будет ли отправлено уведомление пользователю о заявке в друзья
         /// от текущего пользователя
         /// </summary>
-        bool CanSendFreindRequest { get; set; }
+        bool CanSendFreindRequest { get; }
 
         /// <summary>
         /// Может ли текущий пользователь отправить личное сообщение
         /// </summary>
-        bool CanWritePrivateMessage { get; set; }
+        bool CanWritePrivateMessage { get; }
 
         /// <summary>
         /// Количество общих друзей с текущим пользователем
         /// </summary>
-        int? CommonCount { get; set; }
+        int? CommonCount { get; }
 
         /// <summary>
         /// Координаты, по которым была вырезана фотография профиля и миниатюра
         /// </summary>
-        ICropPhoto CropPhoto { get; set; }
+        ICropPhoto CropPhoto { get; }
 
         /// <summary>
         /// Короткий адрес страницы
@@ -67,7 +67,7 @@ namespace Vk.Api.Schema.Common.User
         /// <remarks>
         /// Если недоступен, то равен 'id + UserId'
         /// </remarks>
-        string Domain { get; set; }
+        string Domain { get; }
 
         //TODO: Name case
 
@@ -75,107 +75,107 @@ namespace Vk.Api.Schema.Common.User
         /// Количество подписчиков пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? FollowersCount { get; set; }
+        int? FollowersCount { get; }
 
         /// <summary>
         /// Статус дружбы с пользователем
         /// </summary>
-        FriendStatus? FriendStatus { get; set; }
+        FriendStatus? FriendStatus { get; }
 
         /// <summary>
         /// Известен ли номер мобильного телефона, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? HasMobile { get; set; }
+        bool? HasMobile { get; }
 
         /// <summary>
         /// Установил ли пользователь фотографию профиля, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? HasPhoto { get; set; }
+        bool? HasPhoto { get; }
 
         /// <summary>
         /// Название родного города, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string HomeTown { get; set; }
+        string HomeTown { get; }
 
         /// <summary>
         /// Добавлен ли текущий пользователь в закладки, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? IsFavorite { get; set; }
+        bool? IsFavorite { get; }
 
         /// <summary>
         /// Скрыт ли пользователь из ленты новостей, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? IsHiddenFromFeed { get; set; }
+        bool? IsHiddenFromFeed { get; }
 
         /// <summary>
         /// Время последнего посещения, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        ILastSeen LastSeen { get; set; }
+        ILastSeen LastSeen { get; }
 
         /// <summary>
         /// Идентификаторы списков друзей в которые добавлен пользователь, если доступны,
         /// иначе <see langword="null"/>
         /// </summary>
-        IEnumerable<string> Lists { get; set; }
+        IEnumerable<string> Lists { get; }
 
         /// <summary>
         /// Девичья фамилия, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string MaidenName { get; set; }
+        string MaidenName { get; }
 
         /// <summary>
         /// Никнейм или отчество пользователя, если доступны,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Nickname { get; set; }
+        string Nickname { get; }
 
         /// <summary>
         /// Находится ли пользователь сейчас на сайте, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? IsOnline { get; set; }
+        bool? IsOnline { get; }
 
         /// <summary>
         /// Короткое имя страницы пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string ScreenName { get; set; }
+        string ScreenName { get; }
 
         /// <summary>
         /// Пол пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Sex? Sex { get; set; }
+        Sex? Sex { get; }
 
         /// <summary>
         /// Сайт пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        Uri Site { get; set; }
+        Uri Site { get; }
 
         /// <summary>
         /// Временная зона пользователя, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? TimeZone { get; set; }
+        int? TimeZone { get; }
 
         /// <summary>
         /// Является ли страница верифицированной, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? IsVerified { get; set; }
+        bool? IsVerified { get; }
 
         /// <summary>
         /// Включены ли комментарии на стене, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        bool? WallCommentsAvailabale { get; set; }
+        bool? WallCommentsAvailabale { get; }
     }
 }

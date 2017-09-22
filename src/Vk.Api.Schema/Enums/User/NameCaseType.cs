@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace Vk.Api.Schema.Enums
+namespace Vk.Api.Schema.Enums.User
 {
     /// <summary>
     /// Падежи для склонения имени и фамилии

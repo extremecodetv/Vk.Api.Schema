@@ -1,6 +1,7 @@
 ﻿using System;
 
 using Vk.Api.Schema.Enums;
+using Vk.Api.Schema.Enums.Media;
 
 namespace Vk.Api.Schema.Common.Media.Document
 {
@@ -13,46 +14,46 @@ namespace Vk.Api.Schema.Common.Media.Document
         /// <summary>
         /// Идентификатор документа
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Идентификатор пользователя
         /// </summary>
-        int OwnerId { get; set; }
+        int OwnerId { get; }
 
         /// <summary>
         /// Название документа
         /// </summary>
-        string Title { get; set; }
+        string Title { get; }
 
         /// <summary>
         /// Размер документа в байтах
         /// </summary>
-        int Size { get; set; }
+        int Size { get; }
 
         /// <summary>
         /// Расширение документа
         /// </summary>
-        string Extension { get; set; }
+        string Extension { get; }
 
         /// <summary>
         /// Url документа
         /// </summary>
-        Uri Url { get; set; }
+        Uri Url { get; }
 
         /// <summary>
         /// Дата добавления документа
         /// </summary>
-        DateTime Date { get; set; }
+        DateTime Date { get; }
 
         /// <summary>
         /// Тип документа
         /// </summary>
-        DocumentType Type { get; set; }
+        DocumentType Type { get; }
 
         /// <summary>
         /// Предварительный просмотр документа
         /// </summary>
-        IPreview Preview { get; set; }
+        IPreview Preview { get; }
     }
 }

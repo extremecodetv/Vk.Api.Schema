@@ -11,74 +11,74 @@ namespace Vk.Api.Schema.Common.Media.Video
         /// <summary>
         /// Идентификатор видеозаписи
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Идентификатор владельца видеозаписи
         /// </summary>
-        int OwnerId { get; set; }
+        int OwnerId { get; }
 
         /// <summary>
         /// Название видеозаписи
         /// </summary>
-        string Title { get; set; }
+        string Title { get; }
 
         /// <summary>
         /// Описание видеозаписи
         /// </summary>
-        string Description { get; set; }
+        string Description { get; }
 
         /// <summary>
         /// Длительность видеозаписи
         /// </summary>
-        TimeSpan Duration { get; set; }
+        TimeSpan Duration { get; }
 
         /// <summary>
         /// Дата создания видеозаписи
         /// </summary>
-        DateTime Date { get; set; }
+        DateTime Date { get; }
 
         /// <summary>
         /// Дата добавления видеозаписи
         /// </summary>
-        DateTime AddingDate { get; set; }
+        DateTime AddingDate { get; }
 
         /// <summary>
         /// Количество просмотров
         /// </summary>
-        int Views { get; set; }
+        int Views { get; }
 
         /// <summary>
         /// Количество комментариев
         /// </summary>
-        int Comments { get; set; }
+        int Comments { get; }
 
         /// <summary>
         /// Url страницы с плеером
         /// </summary>
-        Uri PlayerUrl { get; set; }
+        Uri PlayerUrl { get; }
 
         /// <summary>
         /// Название платформы (для видеозаписей, добавленных с внешних сайтов)
         /// </summary>
-        string Platform { get; set; }
+        string Platform { get; }
 
         /// <summary>
         /// <see langword="true"/>, если пользователь может редактировать видеозапись, иначе <see langword="null"/>
         /// </summary>
-        bool? CanEdit { get; set; }
+        bool? CanEdit { get; }
 
         /// <summary>
         /// <see langword="true"/>, если пользователь может добавить видеозапись себе
         /// </summary>
-        bool CanAdd { get; set; }
+        bool CanAdd { get; }
 
-        //string AccessKey { get; set; } //TODO: hz
+        //string AccessKey { get; } //TODO: hz
 
         /// <summary>
         /// <see langword="true"/>, если видеоролик обрабатывается, иначе <see langword="null"/>
         /// </summary>
-        bool? IsProcessing { get; set; }
+        bool? IsProcessing { get; }
 
         /// <summary>
         /// <see langword="true"/>, если прямая трансляция
@@ -86,11 +86,11 @@ namespace Vk.Api.Schema.Common.Media.Video
         /// <remarks>
         /// Длительность <see cref="IVideo.Duration"/> в этом случае равна 0
         /// </remarks>
-        bool IsLive { get; set; }
+        bool IsLive { get; }
 
         /// <summary>
         /// <see langword="true"/>, если трансляция скоро начнется
         /// </summary>
-        bool? IsUpcoming { get; set; }
+        bool? IsUpcoming { get; }
     }
 }

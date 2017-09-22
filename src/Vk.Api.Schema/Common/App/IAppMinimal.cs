@@ -10,16 +10,16 @@ namespace Vk.Api.Schema.Common.App
         /// <summary>
         /// Идентификатор приложения
         /// </summary>
-        int Id { get; set; }
+        int Id { get; }
 
         /// <summary>
         /// Название приложения
         /// </summary>
-        string Title { get; set; }
+        string Title { get; }
 
         /// <summary>
         /// Дата размещения приложения
         /// </summary>
-        DateTime PublishedDate { get; set; }
+        DateTime PublishedDate { get; }
     }
 }

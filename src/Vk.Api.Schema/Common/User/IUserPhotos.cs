@@ -11,49 +11,49 @@ namespace Vk.Api.Schema.Common.User
         /// <see cref="Uri"/> квадратной фотографии пользователя, имеющей ширину 50 пикселей.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri Photo50 { get; set; }
+        Uri Photo50 { get; }
 
         /// <summary>
         /// <see cref="Uri"/> квадратной фотографии пользователя, имеющей ширину 100 пикселей.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri Photo100 { get; set; }
+        Uri Photo100 { get; }
 
         /// <summary>
         /// <see cref="Uri"/> фотографии пользователя, имеющей ширину 200 пикселей.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri PhotoOriginal200 { get; set; }
+        Uri PhotoOriginal200 { get; }
 
         /// <summary>
         /// <see cref="Uri"/> квадратной фотографии пользователя, имеющей ширину 200 пикселей.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri Photo200 { get; set; }
+        Uri Photo200 { get; }
 
         /// <summary>
         /// <see cref="Uri"/> фотографии пользователя, имеющей ширину 400 пикселей.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri PhotoOriginal400 { get; set; }
+        Uri PhotoOriginal400 { get; }
 
         /// <summary>
         /// <see cref="Uri"/> квадратной фотографии пользователя с максимальной шириной.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri PhotoMax { get; set; }
+        Uri PhotoMax { get; }
 
         /// <summary>
         /// <see cref="Uri"/> фотографии пользователя с максимальной шириной.<para/>
         /// В случае, если отсутствует, возвращает стандартное фото
         /// </summary>
-        Uri PhotoOriginalMax { get; set; }
+        Uri PhotoOriginalMax { get; }
 
         /// <summary>
         /// Строковый идентификатор фотографии профиля пользователя, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        string PhotoId { get; set; }
+        string PhotoId { get; }
 
     }
 }

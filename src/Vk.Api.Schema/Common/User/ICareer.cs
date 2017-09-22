@@ -11,48 +11,48 @@ namespace Vk.Api.Schema.Common.User
         /// Идентификатор сообщества, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? GroupId { get; set; }
+        int? GroupId { get; }
 
         /// <summary>
         /// Название компании, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Company { get; set; }
+        string Company { get; }
 
         /// <summary>
         /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CountryId { get; set; }
+        int? CountryId { get; }
 
         /// <summary>
         /// Идентификатор города, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CityId { get; set; }
+        int? CityId { get; }
 
         /// <summary>
         /// Название города, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string CityName { get; set; }
+        string CityName { get; }
 
         /// <summary>
         /// Год начала работы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? FromDate { get; set; }
+        DateTime? FromDate { get; }
 
         /// <summary>
         /// Год окончания работы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? UntilDate { get; set; }
+        DateTime? UntilDate { get; }
 
         /// <summary>
         /// Должность, если доступна,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Position { get; set; }
+        string Position { get; }
     }
 }

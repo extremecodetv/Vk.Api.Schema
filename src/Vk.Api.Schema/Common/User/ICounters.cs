@@ -10,66 +10,66 @@ namespace Vk.Api.Schema.Common.User
         /// Количество фотоальбомов пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AlbumsCount { get; set; }
+        int? AlbumsCount { get; }
 
         /// <summary>
         /// Количество видеозаписей пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? VideosCount { get; set; }
+        int? VideosCount { get; }
 
         /// <summary>
         /// Количество аудиозаписей пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? AudiosCount { get; set; }
+        int? AudiosCount { get; }
 
         /// <summary>
         /// Количество фотографий пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? PhotosCount { get; set; }
+        int? PhotosCount { get; }
 
         /// <summary>
         /// Количество заметок пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? NotesCount { get; set; }
+        int? NotesCount { get; }
 
         /// <summary>
         /// Количество друзей пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? FriendsCount { get; set; }
+        int? FriendsCount { get; }
 
         /// <summary>
         /// Количество групп пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? GroupsCount { get; set; }
+        int? GroupsCount { get; }
         
         /// <summary>
         /// Количество общих друзей с пользователем, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? MutualFriendscount { get; set; }
+        int? MutualFriendscount { get; }
 
         /// <summary>
         /// Количество видеозаписей с пользователем, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? UserVideosCount { get; set; }
+        int? UserVideosCount { get; }
         
         /// <summary>
         /// Количество подписчиков пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? FollowersCount { get; set; }
+        int? FollowersCount { get; }
         
         /// <summary>
         /// Количество объектов в "Интересные страницы" пользователя, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? PagesCount { get; set; }
+        int? PagesCount { get; }
     }
 }

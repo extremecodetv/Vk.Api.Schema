@@ -11,30 +11,30 @@ namespace Vk.Api.Schema.Common.User
         /// Номер части, если доступен,
         /// иначе <see langword="null"/> 
         /// </summary>
-        string Unit { get; set; }
+        string Unit { get; }
 
         /// <summary>
         /// Идентификатор части, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? Id { get; set; }
+        int? Id { get; }
 
         /// <summary>
         /// Идентификатор страны, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        int? CountryId { get; set; }
+        int? CountryId { get; }
 
         /// <summary>
         /// Год начала службы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? FromDate { get; set; }
+        DateTime? FromDate { get; }
 
         /// <summary>
         /// Год окончания службы, если доступен,
         /// иначе <see langword="null"/>
         /// </summary>
-        DateTime? UntilDate { get; set; }
+        DateTime? UntilDate { get; }
     }
 }

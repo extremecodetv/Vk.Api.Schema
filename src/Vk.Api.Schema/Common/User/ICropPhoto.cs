@@ -13,16 +13,16 @@ namespace Vk.Api.Schema.Common.User
         /// Фотография пользователя, из которой
         /// вырезается главное фото профиля
         /// </summary>
-        IPhoto Photo { get; set; }
+        IPhoto Photo { get; }
 
         /// <summary>
         /// Координаты вырезанной части фотографии профиля
         /// </summary>
-        Rect Crop { get; set; }
+        Rect Crop { get; }
 
         /// <summary>
         /// Координаты вырезанной квадратной миниатюры фотографии профиля
         /// </summary>
-        Rect Rect { get; set; }
+        Rect Rect { get; }
     }
 }
