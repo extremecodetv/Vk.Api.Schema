@@ -7,6 +7,6 @@ namespace Vk.Api.Schema.Serialization.Http
     public enum HttpRequired
     {
         Always,
-        DisallowNull
+        Default
     }
 }

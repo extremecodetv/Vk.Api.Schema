@@ -13,6 +13,6 @@
         /// <summary>
         /// <see langword="true"/>, если пользователь репостнул запись
         /// </summary>
-        bool UserReposted { get; }
+        bool? UserReposted { get; }
     }
 }

@@ -3,7 +3,7 @@
     /// <summary>
     /// Интерфейс, представляющий информацию о местоположении
     /// </summary>
-    public interface IPlace
+    public interface IPlace : IPlaceCheckin
     {
         /// <summary>
         /// Идентификатор места

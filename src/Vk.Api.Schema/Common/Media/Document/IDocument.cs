@@ -52,7 +52,8 @@ namespace Vk.Api.Schema.Common.Media.Document
         DocumentType Type { get; }
 
         /// <summary>
-        /// Предварительный просмотр документа
+        /// Предварительный просмотр документа, если доступен,
+        /// иначе <see langword="null"/>
         /// </summary>
         IPreview Preview { get; }
     }

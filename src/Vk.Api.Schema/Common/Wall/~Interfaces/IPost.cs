@@ -92,7 +92,11 @@ namespace Vk.Api.Schema.Common.Wall
 
         //TODO: Attachments
 
-        //TODO: Geo
+        /// <summary>
+        /// Информация о местоположении, если доступно,
+        /// иначе <see langword="null"/>
+        /// </summary>
+        IGeo Geo { get; }
 
         /// <summary>
         /// Идентификатор автора, если запись была опубликована от имени

@@ -13,7 +13,7 @@
         /// <summary>
         /// <see langword="true"/>, если текущий пользователь может комментировать запись
         /// </summary>
-        bool CanPost { get; }
+        bool? CanPost { get; }
 
         /// <summary>
         /// <see langword="true"/>,  если сообщества могут комментировать запись

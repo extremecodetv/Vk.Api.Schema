@@ -164,5 +164,14 @@ namespace Vk.Api.Schema.Common.Group
 
         [JsonProperty("wiki_page")]
         public string WikiPage { get; set; }
+        
+        [JsonProperty("photo_50")]
+        public Uri Photo50 { get; set; }
+
+        [JsonProperty("photo_100")]
+        public Uri Photo100 { get; set; }
+
+        [JsonProperty("photo_200")]
+        public Uri Photo200 { get; set; }
     }
 }

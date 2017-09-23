@@ -73,7 +73,10 @@ namespace Vk.Api.Schema.Common.Media.Video
         /// </summary>
         bool CanAdd { get; }
 
-        //string AccessKey { get; } //TODO: hz
+        /// <summary>
+        /// Ключ доступа к видеозаписи
+        /// </summary>
+        string AccessKey { get; } 
 
         /// <summary>
         /// <see langword="true"/>, если видеоролик обрабатывается, иначе <see langword="null"/>

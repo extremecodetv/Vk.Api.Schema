@@ -7,8 +7,12 @@ using System.Collections;
 
 namespace Vk.Api.Schema.Serialization.Http
 {
-    internal static class HttpPostConverter
+    /// <summary>
+    /// Класс для сериализации объектов производных от <see cref="IBaseParameters"/> в <see cref="FormUrlEncodedContent"/>
+    /// </summary>
+    public static class HttpPostConverter
     {
+
         public static FormUrlEncodedContent SerializeObject(object source)
         {
             return new FormUrlEncodedContent(source.ToDictionary());
@@ -36,7 +40,7 @@ namespace Vk.Api.Schema.Serialization.Http
                 object obj   = property.GetValue(source);
                 string value = string.Empty;
 
-                if (attribute.Required == HttpRequired.DisallowNull && obj == null)
+                if (attribute.Required == HttpRequired.Default && obj == null)
                 {
                     return;
                 }

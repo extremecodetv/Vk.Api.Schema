@@ -11,7 +11,7 @@ namespace Vk.Api.Schema.Serialization.Http
 
         public string ParameterName => parameterName;
 
-        public HttpRequired Required { get; set; } = HttpRequired.DisallowNull;
+        public HttpRequired Required { get; set; } = HttpRequired.Default;
 
         public HttpPropertyAttribute(string parameterName)
         {
