@@ -64,7 +64,7 @@ namespace Vk.Api.Schema.Common.Wall
         public PostType? Type { get; set; }
 
         [JsonProperty("geo")]
-        [JsonConverter(typeof(TypeConverter<Geo>)]
+        [JsonConverter(typeof(TypeConverter<Geo>))]
         public IGeo Geo { get; set; }
 
         [JsonProperty("post_source")]
