@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using System;
+using Newtonsoft.Json;
 
 namespace Vk.Api.Schema.Common.Media.Geo
 {
@@ -26,7 +27,7 @@ namespace Vk.Api.Schema.Common.Media.Geo
         public double Longitude { get; set; }
 
         [JsonProperty("type")]
-        public string Type { get; set; }
+        public int? Type { get; set; }
 
         [JsonProperty("country")]
         public int CountryId { get; set; }
@@ -35,6 +36,19 @@ namespace Vk.Api.Schema.Common.Media.Geo
         public int CityId { get; set; }
 
         [JsonProperty("address")]
-        public string Address { get; set; }
+        public int? Address { get; set; }
+
+        [JsonProperty("group_id")]
+        public int? GroupId { get; set; }
+
+        [JsonProperty("group_photo")]
+        public Uri GroupPhotoUrl { get; set; }
+
+        [JsonProperty("checkins")]
+        public int? CheckinsCount { get; set; }
+
+        [JsonProperty("updated")]
+        public DateTime? UpdateDate { get; set; }
+
     }
 }

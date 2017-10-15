@@ -41,10 +41,7 @@ namespace Vk.Api.Schema.Common
         /// Адрес, если доступно, если доступно,
         /// иначе <see langword="null"/>
         /// </summary>
-        string Address { get; }
+        int? Address { get; }
       
-        /// Тип чекина
-        /// </summary>
-        int Type { get; }
     }
 }

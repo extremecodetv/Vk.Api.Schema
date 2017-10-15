@@ -3,6 +3,7 @@ using Newtonsoft.Json;
 using Vk.Api.Schema.Common.Poll;
 using Vk.Api.Schema.Enums.Wall;
 using Vk.Api.Schema.Serialization.Converters;
+using Vk.Api.Schema.Common.Media.Geo;
 
 namespace Vk.Api.Schema.Common.Wall
 {
@@ -62,14 +63,30 @@ namespace Vk.Api.Schema.Common.Wall
         [JsonConverter(typeof(PostTypeConverter))]
         public PostType? Type { get; set; }
 
+        [JsonProperty("geo")]
+        [JsonConverter(typeof(TypeConverter<Geo>)]
+        public IGeo Geo { get; set; }
+
         [JsonProperty("post_source")]
         [JsonConverter(typeof(TypeConverter<PostSource>))]
         public IPostSource PostSource { get; set; }
+
+        [JsonProperty("signer_id")]
         public int? SignerId { get; set; }
+
+        [JsonProperty("can_pin")]
         public bool? CanPin { get; set; }
+
+        [JsonProperty("can_delete")]
         public bool? CanDelete { get; set; }
+
+        [JsonProperty("can_edit")]
         public bool? CanEdit { get; set; }
+
+        [JsonProperty("is_pinned")]
         public bool? IsPinned { get; set; }
+
+        [JsonProperty("marked_as_ads")]
         public bool? MarkedAsAds { get; set; }
     }
 }

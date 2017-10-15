@@ -26,11 +26,6 @@
         double Longitude { get; }
 
         /// <summary>
-        /// Тип места
-        /// </summary>
-        string Type { get; }
-
-        /// <summary>
         /// Идентификатор страны
         /// </summary>
         int CountryId { get; }
@@ -40,9 +35,6 @@
         /// </summary>
         int CityId { get; }
 
-        /// <summary>
-        /// Адрес
-        /// </summary>
-        string Address { get; }
+        
     }
 }
